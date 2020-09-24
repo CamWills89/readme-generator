@@ -62,7 +62,7 @@ const promptUser = () => {
     message: 'please select a license.',
     choices: [
       "MIT",
-      "ISC-License",
+      "ISC",
       "Apache-2.0",
       "MPL-2.0"
     ]
