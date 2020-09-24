@@ -4,30 +4,43 @@ function generateMarkdown(data) {
   # ${data.title}
   
   ## Description:
-  
+  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge")
+
+    ${data.description}
+
   # Table of Contents
 
-  - [Installation]
-  - [Usage]
-  - [Credits]
-  - [License]
-  - [Contribution]
-  - [Tests]
-  - [Questions]
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Contribution](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-  # Installation:
+  ## Installation:
+  ${data.installation}
 
-  # Usage:
+  ## Usage:
+  ${data.usage}
 
-  # Credits:
+  ## Credits:
+  ${data.credits}
 
-  # License:
+  ## License:
+  for more information about licenses, please visit:
+  [License](https://choosealicense.com/)
 
-  # Contribution:
+  ## Contributing:
+  ${data.contributing}
 
-  # Tests:
-
-  # Questions:
+  ## Tests:
+  ${data.tests}
+  
+  ## Questions:
+  For any questions you may have, please visit my Github profile or email me.
+  - [Github Profile](https://github.com/${data.github})
+  - [Email](${data.email})
 `;
 }
 
