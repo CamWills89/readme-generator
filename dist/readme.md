@@ -1,10 +1,13 @@
 
-  # Camerons Readme
+  # asdc
+
   
   ## Description:
-  ![License](https://img.shields.io/badge/License-ISC-blue.svg "License Badge")
 
-    asd[pfknad[gnoroegneroiwgnwerogrngiorngorngoringrignrgiorngoirngroignrognroignriognweoignodfgnsfdlkgnsdflgknsdlfkngsldknglskdnfglskdfnglksdnfglksdnfglksdfnglksdnfglkfsdnglsdkfnglskdfnglsdfkngl
+  ![License](https://img.shields.io/badge/License-MPL-2.0-blue.svg "License Badge")
+
+    ads
+
 
   # Table of Contents
 
@@ -17,26 +20,43 @@
   - [Questions](#questions)
 
   ## Installation:
-  osdfnmb
+
+  adsf
+
 
   ## Usage:
-  sdffgf
+
+  adsf
+
 
   ## Credits:
-  fgeee
+
+  asd
+
 
   ## License:
-  for more information about licenses, please visit:
-  
-  [License](https://choosealicense.com/)
+
+  For more information about licenses, please visit:
+
+  [License](https://opensource.org/licenses/MPL-2.0)
+
 
   ## Contributing:
-  sdvdf
+
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+  
+  asdf
+
+
 
   ## Tests:
-  dsfvvv
+
+  asdf
+
   
   ## Questions:
+
   For any questions you may have, please visit my Github profile or email me.
-  - [Github Profile](https://github.com/CamWills89)
-  - [Email](cameron.wills89@outlook.com)
+  - [Github Profile](https://github.com/asdf)
+  - [Email](asdf)
+

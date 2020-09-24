@@ -3,12 +3,12 @@ function generateMarkdown(userResponse) {
 console.log(userResponse);
 
   return `
-  # ${userResponse.title}
+  # ${userResponse.title}\n
   
-  ## Description:
+  ## Description:\n
   ![License](https://img.shields.io/badge/License-${userResponse.license}-blue.svg "License Badge")
 
-    ${userResponse.description}
+    ${userResponse.description}\n
 
   # Table of Contents
 
@@ -20,30 +20,33 @@ console.log(userResponse);
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation:
-  ${userResponse.installation}
+  ## Installation:\n
+  ${userResponse.installation}\n
 
-  ## Usage:
-  ${userResponse.usage}
+  ## Usage:\n
+  ${userResponse.usage}\n
 
-  ## Credits:
-  ${userResponse.credits}
+  ## Credits:\n
+  ${userResponse.credits}\n
 
-  ## License:
-  for more information about licenses, please visit:
+  ## License:\n
+  For more information about licenses, please visit:
+
+  [License](https://opensource.org/licenses/${userResponse.license})\n
+
+  ## Contributing:\n
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
   
-  [License](https://choosealicense.com/)
+  ${userResponse.contributing}\n
 
-  ## Contributing:
-  ${userResponse.contributing}
 
-  ## Tests:
-  ${userResponse.tests}
+  ## Tests:\n
+  ${userResponse.tests}\n
   
-  ## Questions:
+  ## Questions:\n
   For any questions you may have, please visit my Github profile or email me.
   - [Github Profile](https://github.com/${userResponse.github})
-  - [Email](${userResponse.email})
+  - [Email](${userResponse.email})\n
 `;
 }
 
