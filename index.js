@@ -1,3 +1,9 @@
+// Initialize the file system and inquirer modules
+const fs = require('fs');
+// const inquirer = require('inquirer');
+
+const generateMarkdown = require('./utils/generateMarkdown.js');
+
 // array of questions for user
 const questions = [
 
