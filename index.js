@@ -23,12 +23,28 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'description',
-      message: 'Please provide a description for your project.'
+      message: 'Please provide a description for your project.',
+      validate: descriptionInput => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log("Please provide a description for your project!");
+          return false;
+        }
+      }
     },
     {
       type: 'input',
       name: 'installation',
-      message: 'Please provide some installation instructions for your project.'
+      message: 'Please provide some installation instructions for your project.',
+      validate: installationInput => {
+        if (installationInput) {
+          return true;
+        } else {
+          console.log("Please provide instructions for your project's installation procedures!");
+          return false;
+        }
+      }
     },
     {
       type: 'input',
@@ -64,28 +80,55 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'github',
-      message: 'what is your GitHub username?'
+      message: 'what is your GitHub username?',
+      validate: githubInput => {
+        if (githubInput) {
+          return true;
+        } else {
+          console.log("Please enter your GitHub Username !");
+          return false;
+        }
+      }
     },
     {
       type: 'input',
       name: 'email',
       message: 'what is your email address?'
     },
-  ]).then(data => {
-    const readMe = generateMarkdown(data);
+  ]).then(userResponse => {
+    const readMe = generateMarkdown(userResponse);
 
     writeToFile(readMe)
   })
 }
 
 // function to write README file
-function writeToFile(data) {
+function writeToFile(userResponse) {
+  // create a path to create the readme file
+  const fileName = "./dist/readme.md";
+
+  // Write the file
+  return new Promise((resolve, reject) => {
+    fs.writeFile(fileName, userResponse, err => {
+      // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method 
+      if (err) {
+        reject(err);
+        return;
+      }
+      //if everything went well, resolve the Promise and send the successful data to the `.then()` method
+      resolve({
+        ok: true,
+        message: 'File Created!'
+      });
+    });
+  });
 
 }
 
 // function to initialize program
 function init() {
-  const data = promptUser()
+  // store all the user's answers in a variable
+  const userResponse = promptUser()
 }
 
 // function call to initialize program

@@ -1,10 +1,10 @@
 
-  # Cameron readme
+  # Camerons Readme
   
   ## Description:
-  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
+  ![License](https://img.shields.io/badge/License-ISC-blue.svg "License Badge")
 
-    Generate a readme fast
+    asd[pfknad[gnoroegneroiwgnwerogrngiorngorngoringrignrgiorngoirngroignrognroignriognweoignodfgnsfdlkgnsdflgknsdlfkngsldknglskdnfglskdfnglksdnfglksdnfglksdfnglksdnfglkfsdnglsdkfnglskdfnglsdfkngl
 
   # Table of Contents
 
@@ -17,23 +17,24 @@
   - [Questions](#questions)
 
   ## Installation:
-  make sure npm init
+  osdfnmb
 
   ## Usage:
-  as needed
+  sdffgf
 
   ## Credits:
-  Cameron Wills
+  fgeee
 
   ## License:
   for more information about licenses, please visit:
+  
   [License](https://choosealicense.com/)
 
   ## Contributing:
-  anyone can contribute
+  sdvdf
 
   ## Tests:
-  no tests
+  dsfvvv
   
   ## Questions:
   For any questions you may have, please visit my Github profile or email me.

@@ -1,14 +1,14 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
-console.log(data);
+function generateMarkdown(userResponse) {
+console.log(userResponse);
 
   return `
-  # ${data.title}
+  # ${userResponse.title}
   
   ## Description:
-  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge")
+  ![License](https://img.shields.io/badge/License-${userResponse.license}-blue.svg "License Badge")
 
-    ${data.description}
+    ${userResponse.description}
 
   # Table of Contents
 
@@ -21,28 +21,29 @@ console.log(data);
   - [Questions](#questions)
 
   ## Installation:
-  ${data.installation}
+  ${userResponse.installation}
 
   ## Usage:
-  ${data.usage}
+  ${userResponse.usage}
 
   ## Credits:
-  ${data.credits}
+  ${userResponse.credits}
 
   ## License:
   for more information about licenses, please visit:
+  
   [License](https://choosealicense.com/)
 
   ## Contributing:
-  ${data.contributing}
+  ${userResponse.contributing}
 
   ## Tests:
-  ${data.tests}
+  ${userResponse.tests}
   
   ## Questions:
   For any questions you may have, please visit my Github profile or email me.
-  - [Github Profile](https://github.com/${data.github})
-  - [Email](${data.email})
+  - [Github Profile](https://github.com/${userResponse.github})
+  - [Email](${userResponse.email})
 `;
 }
 
