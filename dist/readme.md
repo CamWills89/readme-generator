@@ -1,14 +1,10 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-console.log(data);
 
-  return `
-  # ${data.title}
+  # Cameron readme
   
   ## Description:
-  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge")
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
-    ${data.description}
+    Generate a readme fast
 
   # Table of Contents
 
@@ -21,29 +17,25 @@ console.log(data);
   - [Questions](#questions)
 
   ## Installation:
-  ${data.installation}
+  make sure npm init
 
   ## Usage:
-  ${data.usage}
+  as needed
 
   ## Credits:
-  ${data.credits}
+  Cameron Wills
 
   ## License:
   for more information about licenses, please visit:
   [License](https://choosealicense.com/)
 
   ## Contributing:
-  ${data.contributing}
+  anyone can contribute
 
   ## Tests:
-  ${data.tests}
+  no tests
   
   ## Questions:
   For any questions you may have, please visit my Github profile or email me.
-  - [Github Profile](https://github.com/${data.github})
-  - [Email](${data.email})
-`;
-}
-
-module.exports = generateMarkdown;
+  - [Github Profile](https://github.com/CamWills89)
+  - [Email](cameron.wills89@outlook.com)
