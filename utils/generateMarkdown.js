@@ -44,8 +44,10 @@ console.log(userResponse);
   ${userResponse.tests}\n
   
   ## Questions:\n
-  For any questions you may have, please visit my Github profile or email me.
+  For any questions you may have, please visit my Github profile:
   - [Github Profile](https://github.com/${userResponse.github})
+
+  If you have any additional questions, feel free to email them to me:
   - [Email](${userResponse.email})\n
 `;
 }
