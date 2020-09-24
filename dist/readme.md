@@ -1,12 +1,12 @@
 
-  # asdc
+  # asdf
 
   
   ## Description:
 
-  ![License](https://img.shields.io/badge/License-MPL-2.0-blue.svg "License Badge")
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
-    ads
+    asdf
 
 
   # Table of Contents
@@ -21,24 +21,24 @@
 
   ## Installation:
 
-  adsf
+  asdf
 
 
   ## Usage:
 
-  adsf
+  asdf
 
 
   ## Credits:
 
-  asd
+  asdf
 
 
   ## License:
 
   For more information about licenses, please visit:
 
-  [License](https://opensource.org/licenses/MPL-2.0)
+  [License](https://opensource.org/licenses/MIT)
 
 
   ## Contributing:
@@ -56,7 +56,9 @@
   
   ## Questions:
 
-  For any questions you may have, please visit my Github profile or email me.
+  For any questions you may have, please visit my Github profile:
   - [Github Profile](https://github.com/asdf)
+
+  If you have any additional questions, feel free to email them to me:
   - [Email](asdf)
 

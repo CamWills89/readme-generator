@@ -95,7 +95,8 @@ const promptUser = () => {
     name: 'email',
     message: 'what is your email address?'
   },
-  ]).then(userResponse => {
+  ])
+    .then(userResponse => {
     const readMe = generateMarkdown(userResponse);
     writeToFile(readMe)
   })
