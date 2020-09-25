@@ -98,8 +98,11 @@ const promptUser = () => {
   ])
     .then(userResponse => {
     const readMe = generateMarkdown(userResponse);
-    writeToFile(readMe)
-  })
+      return writeToFile(readMe)
+    })
+    .then(response => {
+      console.log(response);
+    }) 
     .catch(err => {
       console.log(err);
     });
